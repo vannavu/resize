@@ -16,7 +16,6 @@
 	top:0;
 	left:0;
 	background-color: blue;
-
 }
 
 .box {
@@ -52,139 +51,172 @@
 }
 
 #_04 {
-	background: green;
+	background: yellow;
 	left: calc(var(--reveal) * 3);
 }
 
 #_05 {
+	background: yellow;
 	left: calc(var(--reveal) * 4);
 }
 
 #_06 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 5);
 }
 
 #_07 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 6);
 }
 
 #_08 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 7);
 }
 
 #_09 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 8);
 }
 
 #_10 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 9);
 }
 
 #_11 {
+	background: lightcoral;
 	left: calc(var(--reveal) * 10);
 }
 
 #_12 {
+	background: gray;
 	left: calc(var(--reveal) * 11);
 }
 
 #_13 {
+	background: gray;
 	left: calc(var(--reveal) * 12);
 }
 
 #_14 {
+	background: gray;
 	left: calc(var(--reveal) * 13);
 }
 
 #_15 {
+	background: gray;
 	left: calc(var(--reveal) * 14);
 }
 
 #_16 {
+	background: gray;
 	left: calc(var(--reveal) * 15);
 }
 
 #_17 {
+	background: thistle;
 	left: calc(var(--reveal) * 16);
 }
 
 #_18 {
+	background: thistle;
 	left: calc(var(--reveal) * 17);
 }
 
 #_19 {
+	background: thistle;
 	left: calc(var(--reveal) * 18);
 }
 
 #_20 {
+	background: thistle;
 	left: calc(var(--reveal) * 19);
 }
 
 #_21 {
+	background: thistle;
 	left: calc(var(--reveal) * 20);
 }
 
 #_22 {
+	background: thistle;
 	left: calc(var(--reveal) * 21);
 }
 
 #_23 {
+	background: red;
 	left: calc(var(--reveal) * 22);
 }
 
 #_24 {
+	background: red;
 	left: calc(var(--reveal) * 23);
 }
 
 #_25 {
+	background: red;
 	left: calc(var(--reveal) * 24);
 }
 
 #_26 {
+	background: red;
 	left: calc(var(--reveal) * 25);
 }
 
 #_27 {
+	background: red;
 	left: calc(var(--reveal) * 26);
 }
 
 #_28 {
+	background: red;
 	left: calc(var(--reveal) * 27);
 }
 
 #_29 {
+	background: orange;
 	left: calc(var(--reveal) * 28);
 }
 
 #_30 {
+	background: orange;
 	left: calc(var(--reveal) * 29);
 }
 
 #_31 {
+	background: orange;
 	left: calc(var(--reveal) * 30);
 }
 
 #_32 {
+	background: orange;
 	left: calc(var(--reveal) * 31);
 }
 
 #_33 {
+	background: orange;
 	left: calc(var(--reveal) * 32);
 }
 
 #_34 {
+	background: orange;
 	left: calc(var(--reveal) * 33);
 }
 
 #_35 {
+	background: cadetblue;
 	left: calc(var(--reveal) * 34);
 }
 
 #_36 {
+	background: cadetblue;
 	left: calc(var(--reveal) * 35);
 }
 
 #_37 {
+	background: cadetblue;
 	left: calc(var(--reveal) * 36);
 }
 
