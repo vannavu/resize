@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 
 * {
 	font-size: 0;
@@ -23,11 +23,12 @@
 	display: inline-block;
 	width: 100px;
 	height: 100vh;
-	background: white;
+	background: none;
 	box-shadow: -3px 0vh 10px black;
 	text-align: center;
 	font-size: 80px;
-	font-family: 'Bungee', cursive;
+	color: white;
+	font-family: 'Bungee Shade', cursive;
 	word-wrap: break-word;
 	line-height: 80px;
 	vertical-align: top;
@@ -38,166 +39,6 @@
 
 #_01 {
 	right: 0%;
-	background: yellow;
-}
-
-#_02 {
-	background: yellow;
-}
-
-#_03 {
-	background: yellow;
-}
-
-#_04 {
-	background: yellow;
-}
-
-#_05 {
-	background: yellow;
-}
-
-#_06 {
-	background: lightcoral;
-}
-
-#_07 {
-	background: lightcoral;
-}
-
-#_08 {
-	background: lightcoral;
-}
-
-#_09 {
-	background: gray;
-}
-
-#_10 {
-	background: gray;
-}
-
-#_11 {
-	background: gray;
-}
-
-#_12 {
-	background: gray;
-}
-
-#_13 {
-	background: gray;
-}
-
-#_14 {
-	background: gray;
-}
-
-#_15 {
-	background: thistle;
-}
-
-#_16 {
-	background: thistle;
-}
-
-#_17 {
-	background: thistle;
-}
-
-#_18 {
-	background: thistle;
-}
-
-#_19 {
-	background: thistle;
-}
-
-#_20 {
-	background: thistle;
-}
-
-#_21 {
-	background: red;
-}
-
-#_22 {
-	background: red;
-}
-
-#_23 {
-	background: red;
-}
-
-#_24 {
-	background: red;
-}
-
-#_25 {
-	background: red;
-}
-
-#_26 {
-	background: red;
-}
-
-#_27 {
-	background: orange;
-}
-
-#_28 {
-	background: orange;
-}
-
-#_29 {
-	background: orange;
-}
-
-#_30 {
-	background: orange;
-}
-
-#_31 {
-	background: orange;
-}
-
-#_32 {
-	background: cadetblue;
-}
-
-#_33 {
-	background: cadetblue;
-}
-
-#_34 {
-	background: cadetblue;
-}
-
-#_35 {
-	background: cadetblue;
-}
-
-#_36 {
-	background: cadetblue;
-}
-
-#_37 {
-	background: cadetblue;
-}
-
-#_38 {
-}
-
-#_39 {
-}
-
-#_40 {
-}
-
-#_41 {
-}
-
-#_42 {
 }
 
 @media (max-width: 1400px) {
