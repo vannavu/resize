@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+* {
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--reveal: 25px;
+}
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	right:0;
+	background-color: black;
+}
+
+.box {
+	position: fixed;
+	display: inline-block;
+	width: 100px;
+	height: 100vh;
+	background: white;
+	box-shadow: -3px 0vh 10px black;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Bungee Shade', cursive;
+	word-wrap: break-word;
+	line-height: 80px;
+	vertical-align: top;
+	padding-top: 10px;
+	transition: all 10s;
+	right: 100%;
+}
+
+#_01 {
+	right: 0%;
+	background: yellow;
+}
+
+#_02 {
+	background: yellow;
+}
+
+#_03 {
+	background: yellow;
+}
+
+#_04 {
+	background: yellow;
+}
+
+#_05 {
+	background: yellow;
+}
+
+#_06 {
+	background: lightcoral;
+}
+
+#_07 {
+	background: lightcoral;
+}
+
+#_08 {
+	background: lightcoral;
+}
+
+#_09 {
+	background: gray;
+}
+
+#_10 {
+	background: gray;
+}
+
+#_11 {
+	background: gray;
+}
+
+#_12 {
+	background: gray;
+}
+
+#_13 {
+	background: gray;
+}
+
+#_14 {
+	background: gray;
+}
+
+#_15 {
+	background: thistle;
+}
+
+#_16 {
+	background: thistle;
+}
+
+#_17 {
+	background: thistle;
+}
+
+#_18 {
+	background: thistle;
+}
+
+#_19 {
+	background: thistle;
+}
+
+#_20 {
+	background: thistle;
+}
+
+#_21 {
+	background: red;
+}
+
+#_22 {
+	background: red;
+}
+
+#_23 {
+	background: red;
+}
+
+#_24 {
+	background: red;
+}
+
+#_25 {
+	background: red;
+}
+
+#_26 {
+	background: red;
+}
+
+#_27 {
+	background: orange;
+}
+
+#_28 {
+	background: orange;
+}
+
+#_29 {
+	background: orange;
+}
+
+#_30 {
+	background: orange;
+}
+
+#_31 {
+	background: orange;
+}
+
+#_32 {
+	background: cadetblue;
+}
+
+#_33 {
+	background: cadetblue;
+}
+
+#_34 {
+	background: cadetblue;
+}
+
+#_35 {
+	background: cadetblue;
+}
+
+#_36 {
+	background: cadetblue;
+}
+
+#_37 {
+	background: cadetblue;
+}
+
+#_38 {
+}
+
+#_39 {
+}
+
+#_40 {
+}
+
+#_41 {
+}
+
+#_42 {
+}
+
+@media (max-width: 1400px) {
+	#_01{
+		right: -110px;
+	}
+	#_02{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1375px) {
+	#_02{
+		right: -110px;
+	}
+	#_03{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1350px) {
+	#_03{
+		right: -110px;
+	}
+	#_04{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1325px) {
+	#_04{
+		right: -110px;
+	}
+	#_05{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1300px) {
+	#_05{
+		right: -110px;
+	}
+	#_06{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1275px) {
+	#_06{
+		right: -110px;
+	}
+	#_07{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1250px) {
+	#_07{
+		right: -110px;
+	}
+	#_08{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1225px) {
+	#_08{
+		right: -110px;
+	}
+	#_09{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#_09{
+		right: -110px;
+	}
+	#_10{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1175px) {
+	#_10{
+		right: -110px;
+	}
+	#_11{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1150px) {
+	#_11{
+		right: -110px;
+	}
+	#_12{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1125px) {
+	#_12{
+		right: -110px;
+	}
+	#_13{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1100px) {
+	#_13{
+		right: -110px;
+	}
+	#_14{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1075px) {
+	#_14{
+		right: -110px;
+	}
+	#_15{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1050px) {
+	#_15{
+		right: -110px;
+	}
+	#_16{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1025px) {
+	#_16{
+		right: -110px;
+	}
+	#_17{
+		right: 0px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#_17{
+		right: -110px;
+	}
+	#_18{
+		right: 0px;
+	}
+}
+
+@media (max-width: 975px) {
+	#_18{
+		right: -110px;
+	}
+	#_19{
+		right: 0px;
+	}
+}
+@media (max-width: 950px) {
+	#_19{
+		right: -110px;
+	}
+	#_20{
+		right: 0px;
+	}
+}
+
+@media (max-width: 925px) {
+	#_20{
+		right: -110px;
+	}
+	#_21{
+		right: 0px;
+	}
+}
+
+@media (max-width: 900px) {
+	#_21{
+		right: -110px;
+	}
+	#_22{
+		right: 0px;
+	}
+}
+
+@media (max-width: 875px) {
+	#_22{
+		right: -110px;
+	}
+	#_23{
+		right: 0px;
+	}
+}
+
+@media (max-width: 850px) {
+	#_23{
+		right: -110px;
+	}
+	#_24{
+		right: 0px;
+	}
+}
+
+@media (max-width: 825px) {
+	#_24{
+		right: -110px;
+	}
+	#_25{
+		right: 0px;
+	}
+}
+
+@media (max-width: 800px) {
+	#_25{
+		right: -110px;
+	}
+	#_26{
+		right: 0px;
+	}
+}
+
+@media (max-width: 775px) {
+	#_26{
+		right: -110px;
+	}
+	#_27{
+		right: 0px;
+	}
+}
+
+@media (max-width: 750px) {
+	#_27{
+		right: -110px;
+	}
+	#_28{
+		right: 0px;
+	}
+}
+
+@media (max-width: 725px) {
+	#_28{
+		right: -110px;
+	}
+	#_29{
+		right: 0px;
+	}
+}
+
+@media (max-width: 700px) {
+	#_29{
+		right: -110px;
+	}
+	#_30{
+		right: 0px;
+	}
+}
+
+@media (max-width: 675px) {
+	#_30{
+		right: -110px;
+	}
+	#_31{
+		right: 0px;
+	}
+}
+
+@media (max-width: 650px) {
+	#_31{
+		right: -110px;
+	}
+	#_32{
+		right: 0px;
+	}
+}
+@media (max-width: 625px) {
+	#_32{
+		right: -110px;
+	}
+	#_33{
+		right: 0px;
+	}
+}
+
+@media (max-width: 600px) {
+	#_33{
+		right: -110px;
+	}
+	#_34{
+		right: 0px;
+	}
+}
+
+@media (max-width: 575px) {
+	#_34{
+		right: -110px;
+	}
+	#_35{
+		right: 0px;
+	}
+}
+
+@media (max-width: 550px) {
+	#_35{
+		right: -110px;
+	}
+	#_36{
+		right: 0px;
+	}
+}
+
+@media (max-width: 525px) {
+	#_36{
+		right: -110px;
+	}
+	#_37{
+		right: 0px;
+	}
+}
+
+@media (max-width: 500px) {
+	#_37{
+		right: -110px;
+	}
+	#_38{
+		right: 0px;
+	}
+}
+
+@media (max-width: 475px) {
+	#_38{
+		right: -110px;
+	}
+	#_39{
+		right: 0px;
+	}
+}
+
+@media (max-width: 450px) {
+	#_39{
+		right: -110px;
+	}
+	#_40{
+		right: 0px;
+	}
+}
+
+@media (max-width: 425px) {
+	#_40{
+		right: -110px;
+	}
+	#_41{
+		right: 0px;
+	}
+}
+
+@media (max-width: 400px) {
+	#_41{
+		right: -110px;
+	}
+	#_42{
+		right: 0px;
+	}
+}
