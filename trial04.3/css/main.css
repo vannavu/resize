@@ -31,7 +31,7 @@ body {
 	display: inline-block;
 	width: var(--module_width);
 	height: var(--module_height);
-	background-image: url('../images/o_yellow.svg');
+	background-image: url('../images/o_blue.svg');
 	background-size: contain;
 	background-repeat: repeat;
 	vertical-align: top;
@@ -39,6 +39,22 @@ body {
 }
 
 /* ._01 = colummn, .a = row */
+
+._000000 {
+	right: calc(var(--vreveal) * -5);
+}
+
+._00000 {
+	right: calc(var(--vreveal) * -4);
+}
+
+._0000 {
+	right: calc(var(--vreveal) * -3);
+}
+
+._000 {
+	right: calc(var(--vreveal) * -2);
+}
 
 ._00 {
 	right: calc(var(--vreveal) * -1);
@@ -222,7 +238,7 @@ body {
 
 @media (max-width: 1300px) {
 	:root {
-		--vreveal: calc(var(--module_width) * .99);
+		--vreveal: calc(var(--module_width));
 	}
 }
 
@@ -282,6 +298,7 @@ body {
 
 @media (max-width: 900px) {
 	:root {
+		--module_width: 115px;
 		--vreveal: calc(var(--module_width) * .56);
 	}
 }
@@ -297,10 +314,11 @@ body {
 
 @media (max-width: 800px) {
 	:root {
-		--vreveal: calc(var(--module_width) * .46);
+		--module_width: 130px;
+		--vreveal: calc(var(--module_width) * .50);
 	}
 	.box {
-		opacity: 0.4;
+		opacity: 0.5;
 	}
 }
 
@@ -315,8 +333,13 @@ body {
 
 @media (max-width: 700px) {
 	:root {
-		--vreveal: calc(var(--module_width) * .36);
+		--module_width: 151px;
+		--vreveal: calc(var(--module_width) * .43);
 	}
+	.box {
+		opacity: 0.3;
+	}
+
 }
 
 @media (max-width: 675px) {
@@ -328,11 +351,12 @@ body {
 }
 
 @media (max-width: 600px) {
+
 	:root {
-		--vreveal: calc(var(--module_width) * .26);
+		--vreveal: calc(var(--module_width) * .38);
 	}
 	.box {
-		opacity: 0.2;
+		opacity: 0.5;
 	}
 }
 
@@ -347,7 +371,12 @@ body {
 
 @media (max-width: 500px) {
 	:root {
-		--vreveal: calc(var(--module_width) * .16);
+		--module_height: 33.3vh;
+		--module_width: calc(var(--module_height) * 1.20481928);
+		--vreveal: calc(var(--module_width) * .25);
+	}
+	.box {
+		opacity: 0.3;
 	}
 }
 
@@ -361,6 +390,14 @@ body {
 }
 
 @media (max-width: 400px) {
+	:root {
+		--module_height: 33.3vh;
+		--module_width: calc(var(--module_height) * 1.20481928);
+		--vreveal: calc(var(--module_width) * .16);
+	}
+	.box {
+		opacity: 0.3;
+	}
 }
 
 /* height breakpoints */
@@ -412,6 +449,9 @@ body {
 @media (max-height: 400px) {
 	:root {
 		--hreveal: calc(var(--module_height) * 0.43);
+	}
+	.box {
+		opacity: 0.18;
 	}
 }
 

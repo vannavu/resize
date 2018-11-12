@@ -23,7 +23,7 @@ body {
 	height:100%;
 	top:0;
 	right:0;
-	background-color: red;
+	background-color: blue;
 }
 
 .box {
@@ -31,7 +31,7 @@ body {
 	display: inline-block;
 	width: var(--module_width);
 	height: var(--module_height);
-	background-image: url('../images/o_blue.svg');
+	background-image: url('../images/o_red.svg');
 	background-size: contain;
 	background-repeat: repeat;
 	vertical-align: top;
@@ -398,7 +398,6 @@ body {
 		--module_height: 33.3vh;
 		--module_width: calc(var(--module_height) * 1.20481928);
 		--vreveal: calc(var(--module_width) * .16);
-		--hreveal: calc(var(--module_height) * .96);
 	}
 	.box {
 		opacity: 0.3;

@@ -23,7 +23,7 @@ body {
 	height:100%;
 	top:0;
 	right:0;
-	background-color: red;
+	background-color: yellow;
 }
 
 .box {
@@ -31,7 +31,7 @@ body {
 	display: inline-block;
 	width: var(--module_width);
 	height: var(--module_height);
-	background-image: url('../images/o_blue.svg');
+	background-image: url('../images/o_black.svg');
 	background-size: contain;
 	background-repeat: repeat;
 	vertical-align: top;

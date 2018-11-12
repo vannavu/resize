@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.86 104.63"><defs><style>.cls-1{fill:blue;}</style></defs><title>o_blue</title><g id="Layer_2" data-name="Layer 2"><g id="water_" data-name="water?"><path class="cls-1" d="M95.53,0,30.33,30.33h95.53A30.33,30.33,0,0,0,95.53,0Z"/><path class="cls-1" d="M30.33,104.63,95.53,74.3H0A30.33,30.33,0,0,0,30.33,104.63Z"/><rect class="cls-1" y="30.33" width="30.33" height="43.97"/><rect class="cls-1" x="95.53" y="30.33" width="30.33" height="43.97" transform="translate(221.39 104.63) rotate(180)"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 125.9 104.6" style="enable-background:new 0 0 125.9 104.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0000FF;}
+</style>
+<title>o_blue</title>
+<g>
+	<path class="st0" d="M95.5,0L30.3,30.3h65.2v44h30.3v-44C125.9,13.6,112.3,0,95.5,0z"/>
+	<path class="st0" d="M30.3,30.3H0v44c0,16.8,13.6,30.3,30.3,30.3l65.2-30.3H30.3V30.3z"/>
+</g>
+</svg>
