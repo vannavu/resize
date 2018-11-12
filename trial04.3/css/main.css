@@ -222,7 +222,7 @@ body {
 
 @media (max-width: 1300px) {
 	:root {
-		--vreveal: calc(var(--module_width));
+		--vreveal: calc(var(--module_width) * .99);
 	}
 }
 
@@ -300,7 +300,7 @@ body {
 		--vreveal: calc(var(--module_width) * .46);
 	}
 	.box {
-		opacity: 0.5;
+		opacity: 0.4;
 	}
 }
 
@@ -332,7 +332,7 @@ body {
 		--vreveal: calc(var(--module_width) * .26);
 	}
 	.box {
-		opacity: 0.3;
+		opacity: 0.2;
 	}
 }
 
