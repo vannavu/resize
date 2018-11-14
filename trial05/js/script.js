@@ -13,7 +13,12 @@ $(document).ready(function() {
 	});
 
 	$(document).keydown(function(keyPressed) {
-		if (keyPressed.keyCode == 69) {
+		if (keyPressed.keyCode == 65) {
+	    $(".box").css(
+				"background-image", "url(images/a_blue.svg)"
+	    );
+	  }
+		else if (keyPressed.keyCode == 69) {
 	    $(".box").css(
 				"background-image", "url(images/e_blue.svg)"
 	    );
@@ -23,5 +28,5 @@ $(document).ready(function() {
 				"background", "url(images/o_blue.svg)");
 		}
 	});
-	
+
 });
