@@ -37,6 +37,8 @@ body {
 	vertical-align: top;
 	transition: all 2s;
 	filter: hue-rotate(0deg);
+	transform: rotate(0deg);
+	animation: rock 6s infinite;
 }
 
 /* ._01 = colummn, .a = row */
@@ -223,6 +225,14 @@ body {
 
 .k {
 	top: calc(var(--hreveal) * 10);
+}
+
+@keyframes rock {
+		0% {transform: rotate(0deg);}
+		25% {transform: rotate(-20deg);}
+		50% {transform: rotate(0deg);}
+		75% {transform: rotate(20deg);}
+		100% {transform: rotate(0deg);}
 }
 
 /* width breakpoints */
