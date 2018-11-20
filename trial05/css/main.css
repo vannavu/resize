@@ -10,7 +10,8 @@
 	--module_height: calc(var(--module_width) * 0.83);
 	--vreveal: calc(var(--module_width) * 1.24);
 	--hreveal: calc(var(--module_height) * 1);
-
+	--display_width: 150px;
+	--display_height: calc(var(--display_width) * 0.83);
 }
 
 body {
@@ -42,15 +43,26 @@ body {
 	background-size: contain;
 	background-repeat: repeat;
 	vertical-align: top;
-	transition: all 2s;
-	transition: opacity 1s;
 	filter: hue-rotate(0deg);
 	transform: rotate(0deg);
 	animation: rock 20s infinite;
+	transition: all 10s, opacity 1s;
+
 }
 
 .box:hover {
 	cursor: pointer;
+}
+
+.display {
+	position: fixed;
+	z-index: 2;
+	background: url('../images/o_blue.svg');
+	background-size: contain;
+	width: var(--display_width);
+	height: var(--display_height);
+	top: calc(50vh - var(--display_height) / 2);
+	left: calc(50% - var(--display_width) / 2);
 }
 
 /* ._01 = colummn, .a = row */
@@ -244,7 +256,6 @@ body {
 @media (max-width: 1500px) {
 	.box {
 		filter: brightness(0.55);
-		transition: opacity 1s;
 	}
 
 }
@@ -268,7 +279,6 @@ body {
 	}
 	.box {
 		filter: brightness(1);
-		transition: opacity 1s;
 	}
 }
 
@@ -302,6 +312,7 @@ body {
 		30% {transform: rotate(-73.5deg);}
 		70% {transform: rotate(70deg);}
 		100% {transform: rotate(0deg);}
+		transition: all 2s;
 }
 
 @media (max-width: 1100px) {
@@ -310,7 +321,7 @@ body {
 	}
 	.box {
 		animation: rock02 26s infinite;
-		transition: opacity 1s;
+		transition: all 1s;
 	}
 }
 
