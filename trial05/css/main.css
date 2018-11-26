@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 * {
+	font-family: 'Source Code Pro', monospace;
 	font-size: 0;
 	box-sizing: border-box;
 }
@@ -24,7 +25,64 @@ body {
 	height:100%;
 	top:0;
 	right:0;
-	background-color: red;
+	background: red;
+}
+
+.menu {
+	position: fixed;
+	z-index: 999;
+	left: calc(50% - 180px);
+	top: 6px;
+}
+
+.menu img {
+	height: 30px;
+	filter: brightness(0.3);
+	margin: 20px;
+}
+
+#height_resize {
+	display: inline-block;
+	position: fixed;
+	z-index: 999;
+	font-size: 48px;
+	bottom: -36px;
+	line-height: 24px;
+	text-align: center;
+	left: calc(50% - 144px);
+	color: rgb(0,0,100);
+	transition: bottom 1s;
+
+}
+
+#height_resize:hover {
+	bottom: 10px;
+	transition: bottom 0.5s;
+
+}
+
+#width_resize {
+	display: inline-block;
+	position: fixed;
+	z-index: 999;
+	font-size: 48px;
+	top: calc(50% - 36px);
+	text-align: center;
+	right: -143px;
+	color: rgb(0,0,100);
+	transform: rotate(-90deg);
+	line-height: 24px;
+	transition: right 1s;
+
+}
+
+#width_resize:hover {
+	right: -95px;
+	transition: right 0.5s;
+}
+
+.text {
+	font-size: 20px;
 }
 
 @keyframes rock {
@@ -39,30 +97,30 @@ body {
 	display: inline-block;
 	width: var(--module_width);
 	height: var(--module_height);
-	background: url('../images/o_blue.svg');
+	background: url(../images/o_blue.svg);
 	background-size: contain;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	vertical-align: top;
 	filter: hue-rotate(0deg);
 	transform: rotate(0deg);
 	animation: rock 20s infinite;
-	transition: all 10s, opacity 1s;
-
-}
-
-.box:hover {
-	cursor: pointer;
+	transition: all 5s, opacity 1s;
+	/*filter: hue-rotate(90deg);*/
+	cursor: default;
 }
 
 .display {
 	position: fixed;
 	z-index: 2;
-	background: url('../images/o_blue.svg');
+	background: url();
 	background-size: contain;
+	background-repeat: no-repeat;
 	width: var(--display_width);
 	height: var(--display_height);
 	top: calc(50vh - var(--display_height) / 2);
 	left: calc(50% - var(--display_width) / 2);
+	filter: brightness(0.5);
+	opacity: 1;
 }
 
 /* ._01 = colummn, .a = row */
@@ -255,7 +313,7 @@ body {
 
 @media (max-width: 1500px) {
 	.box {
-		filter: brightness(0.55);
+
 	}
 
 }
@@ -278,7 +336,7 @@ body {
 		--vreveal: calc(var(--module_width));
 	}
 	.box {
-		filter: brightness(1);
+
 	}
 }
 
