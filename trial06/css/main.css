@@ -28,40 +28,55 @@ body {
 	background: red;
 }
 
-#vowels {
-	position: fixed;
-	display: block;
-	z-index: 999;
-	font-size: 48px;
-	line-height: 36px;
+.nav {
 	text-align: center;
-	top: -53px;
-	left: calc(50% - 72px);
-	color: rgb(0,0,100);
+	color: white;
+	font-size: 60px;
+}
+
+#colors {
+	position: fixed;
+	display: inline-block;
+	z-index: 999;
+	line-height: 34px;
+	top: -51px;
+	left: calc(50% - 108px);
 	transition: top 1s;
 }
 
-#vowels:hover {
-	top: -4px;
+#colors:hover {
+	top: -12px;
 	transition: top 0.5s;
+}
+
+#vowels {
+	position: fixed;
+	display: inline-block;
+	z-index: 999;
+	line-height: 34px;
+	top: calc(50% - 40px);
+	left: -92px;
+	transition: left 1s;
+	transform: rotate(-90deg);
+}
+
+#vowels:hover {
+	left: -53px;
+	transition: left 0.5s;
 }
 
 #height_resize {
 	display: inline-block;
 	position: fixed;
 	z-index: 999;
-	font-size: 48px;
-	bottom: -36px;
-	line-height: 24px;
-	text-align: center;
+	bottom: -28px;
+	line-height: 19px;
 	left: calc(50% - 144px);
-	color: rgb(0,0,100);
 	transition: bottom 1s;
-
 }
 
 #height_resize:hover {
-	bottom: 10px;
+	bottom: 11px;
 	transition: bottom 0.5s;
 
 }
@@ -70,24 +85,24 @@ body {
 	display: inline-block;
 	position: fixed;
 	z-index: 999;
-	font-size: 48px;
 	top: calc(50% - 29px);
-	text-align: center;
-	right: -143px;
-	color: rgb(0,0,100);
+	right: -150px;
 	transform: rotate(-90deg);
-	line-height: 24px;
+	line-height: 19px;
 	transition: right 1s;
-
 }
 
 #width_resize:hover {
-	right: -95px;
+	right: -111px;
 	transition: right 0.5s;
 }
 
 .text {
+	z-index: 1000;
 	font-size: 20px;
+	background: white;
+	padding: 6px 10px 8px 10px;
+	color: blue;
 }
 
 @keyframes rock {
@@ -109,9 +124,12 @@ body {
 	filter: hue-rotate(0deg);
 	transform: rotate(0deg);
 	animation: rock 20s infinite;
+	opacity: 0;
 	transition: all 5s, opacity 1s;
-	/*filter: hue-rotate(90deg);*/
-	cursor: default;
+}
+
+.box:hover {
+	cursor: pointer;
 }
 
 .display {
@@ -200,90 +218,14 @@ body {
 
 ._13 {
 	right: calc(var(--vreveal) * 12);
-	display: none;
 }
 
 ._14 {
 	right: calc(var(--vreveal) * 13);
-	display: none;
 }
 
 ._15 {
 	right: calc(var(--vreveal) * 14);
-	display: none;
-}
-
-._16 {
-	right: calc(var(--vreveal) * 15);
-	display: none;
-}
-
-._17 {
-	right: calc(var(--vreveal) * 16);
-	display: none;
-}
-
-._18 {
-	right: calc(var(--vreveal) * 17);
-	display: none;
-}
-
-._19 {
-	right: calc(var(--vreveal) * 18);
-	display: none;
-}
-
-._20 {
-	right: calc(var(--vreveal) * 19);
-	display: none;
-}
-
-._21 {
-	right: calc(var(--vreveal) * 20);
-	display: none;
-
-}
-
-._22 {
-	right: calc(var(--vreveal) * 21);
-	display: none;
-
-}
-
-._23 {
-	right: calc(var(--vreveal) * 22);
-	display: none;
-
-}
-
-._24 {
-	right: calc(var(--vreveal) * 23);
-	display: none;
-
-}
-
-._25 {
-	right: calc(var(--vreveal) * 24);
-	display: none;
-
-}
-
-._26 {
-	right: calc(var(--vreveal) * 25);
-	display: none;
-
-}
-
-._27 {
-	right: calc(var(--vreveal) * 26);
-	display: none;
-
-}
-
-._28 {
-	right: calc(var(--vreveal) * 27);
-	display: none;
-
 }
 
 .zz {
@@ -364,9 +306,6 @@ body {
 	:root {
 		--vreveal: calc(var(--module_width));
 	}
-	._13 {
-		display: inline-block;
-	}
 }
 
 @media (max-width: 1275px) {
@@ -410,9 +349,6 @@ body {
 		animation: rock02 26s infinite;
 		transition: all 1s;
 	}
-	._14 {
-		display: inline-block;
-	}
 }
 
 @media (max-width: 1075px) {
@@ -438,9 +374,6 @@ body {
 	.box {
 		animation: rock03 26s infinite;
 		transition: opacity 1s;
-	}
-	._15 {
-		display: inline-block;
 	}
 }
 
