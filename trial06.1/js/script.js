@@ -47,7 +47,7 @@ $(document).ready(function() {
 		  }
 			else if (scheme == 2) {
 			 $(".box").css({
-				 'filter': 'hue-rotate(90deg) brightness(2.25)'
+				 'filter': 'hue-rotate(90deg) brightness(1)'
 			 });
 			 $(".display").css({
 				 'filter': 'brightness(0)'
