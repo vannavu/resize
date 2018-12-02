@@ -29,9 +29,11 @@ $(document).ready(function() {
 			scheme = scheme + 1;
 		  if (scheme == 1) {
 		    $(".box").css({
+					'-webkit-filter': 'hue-rotate(0deg)',
 		      'filter': 'hue-rotate(0deg)'
 		    });
 				$(".display").css({
+					'-webkit-filter': 'grayscale(100%) brightness(12)',
 		      'filter': 'grayscale(100%) brightness(12)'
 		    });
 				$(".container, body").css({
@@ -47,9 +49,11 @@ $(document).ready(function() {
 		  }
 			else if (scheme == 2) {
 			 $(".box").css({
+				 '-webkit-filter': 'hue-rotate(0deg) brightness(2.25)',
 				 'filter': 'hue-rotate(90deg) brightness(2.25)'
 			 });
 			 $(".display").css({
+				 '-webkit-filter': 'brightness(0)',
 				 'filter': 'brightness(0)'
 			 });
 			 $(".container, body").css({
@@ -65,9 +69,11 @@ $(document).ready(function() {
 		 	}
 		  else if (scheme == 3) {
 				$(".box").css({
+					'-webkit-filter': 'grayscale(100%) brightness(0)',
 					'filter': 'grayscale(100%) brightness(0)'
 				});
 				$(".display").css({
+					'-webkit-filter': 'hue-rotate(35deg) brightness(1.3)',
 					'filter': 'hue-rotate(35deg) brightness(1.3)'
 				});
 				$(".container, body").css({
@@ -83,9 +89,11 @@ $(document).ready(function() {
 		  }
 			else if (scheme == 4) {
 		    $(".box").css({
+					'-webkit-filter': 'grayscale(100%) brightness(10)',
 					'filter': 'grayscale(100%) brightness(10)'
 		    });
 				$(".display").css({
+					'-webkit-filter': 'none',
 					'filter': 'none'
 		    });
 				$(".container, body").css({
@@ -101,9 +109,11 @@ $(document).ready(function() {
 		  }
 		  else {
 				$(".box").css({
+					'-webkit-filter': 'hue-rotate(340deg) brightness(6)',
 					'filter': 'hue-rotate(340deg) brightness(6)'
 		    });
 				$(".display").css({
+					'-webkit-filter': 'hue-rotate(250deg) brightness(7)',
 					'filter': 'hue-rotate(250deg) brightness(7)'
 		    });
 				$(".container, body").css({
