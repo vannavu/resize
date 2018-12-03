@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	var start = false;
-	$('._06.d').click('click touchstart', function() {
+	$('._06.c').click('click touchstart', function() {
 		if (start == false) {
 			$("#welcome").css({
 				"opacity": "0",
@@ -17,9 +17,11 @@ $(document).ready(function() {
 	$('.box').click('click touchstart', function() {
 		if ($(window).width() > 800) {
 			$( this ).css("opacity", "0.5");
+			$('._06.c').css("opacity", "1");
 		}
 		else {
 			$( this ).css("opacity", "1");
+			$('._06.c').css("opacity", "0.3");
 		}
 	});
 
@@ -111,7 +113,7 @@ $(document).ready(function() {
 				});
 				$(".text").css({
 					'background': 'lime',
-					'color': 'navy'
+					'color': 'mediumblue'
 				});
 				$(".nav").css({
 					'color': 'lime'
@@ -201,5 +203,19 @@ $(document).ready(function() {
   		});
 		}
 	});
+
+	$("#vowels").hover(
+  function() {
+    $( this ).animate({
+			'left': '-77px',
+		}, 0, function() {
+		});
+  }, function() {
+    $( this ).animate({
+			'left': '-116px',
+		}, 0, function() {
+		});
+  }
+);
 
 });

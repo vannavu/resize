@@ -41,12 +41,13 @@ body {
 	z-index: 1000;
 	width: 100%;
 	height: 100vh;
+	top: 0;
 	background: var(--background);
 	opacity: 1;
 	transition: opacity 2s, z-index 3s;
 }
 
-._06.d {
+._06.c {
 	z-index: 1000;
 }
 
@@ -89,11 +90,6 @@ body {
 	left: -116px;
 	transition: left 1s;
 	transform: rotate(-90deg);
-}
-
-#vowels:hover {
-	left: -77px;
-	transition: left 0.5s;
 }
 
 #vowels .marker {
