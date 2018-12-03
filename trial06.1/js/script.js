@@ -190,6 +190,16 @@ $(document).ready(function() {
   		}, 250, function() {
   		});
 		}
+		else {
+			$("#vowels").animate({
+    		'left': '-77px',
+  		}, 0, function() {
+  		});
+			$("#vowels").delay(2000).animate({
+    		'left': '-116px',
+  		}, 0, function() {
+  		});
+		}
 	});
 
 });
