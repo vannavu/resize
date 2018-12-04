@@ -47,10 +47,6 @@ body {
 	transition: opacity 2s, z-index 3s;
 }
 
-._06.c {
-	z-index: 1000;
-}
-
 .nav {
 	text-align: center;
 	color: white;
@@ -101,7 +97,7 @@ body {
 	position: fixed;
 	z-index: 999;
 	bottom: -5px;
-	left: calc(50% - 144px);
+	left: calc(50% - 214px);
 	transition: bottom 1s;
 }
 
@@ -119,13 +115,13 @@ body {
 	position: fixed;
 	z-index: 999;
 	top: 50%;
-	right: -153px;
+	right: -213px;
 	transform: rotate(-90deg);
 	transition: right 1s;
 }
 
 #width_resize:hover {
-	right: -114px;
+	right: -174px;
 	transition: right 0.5s;
 }
 
@@ -152,7 +148,7 @@ body {
 	position: fixed;
 	width: var(--module_width);
 	height: var(--module_height);
-	background: url(../images/o_blue.svg);
+	background: url();
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: top;
@@ -165,6 +161,31 @@ body {
 
 .box:hover {
 	cursor: pointer;
+}
+
+._10.d {
+	background: url(../images/a_blue.svg);
+	z-index: 1000;
+}
+
+._08.d {
+	background: url(../images/e_blue.svg);
+	z-index: 1000;
+}
+
+._06.d {
+	background: url(../images/i_blue.svg);
+	z-index: 1000;
+}
+
+._04.d {
+	background: url(../images/o_blue.svg);
+	z-index: 1000;
+}
+
+._02.d {
+	background: url(../images/u_blue.svg);
+	z-index: 1000;
 }
 
 .display {
