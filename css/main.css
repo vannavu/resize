@@ -65,7 +65,7 @@ body {
 	display: inline-block;
 	z-index: 999;
 	top: -34px;
-	left: calc(50% - 108px);
+	left: calc(50% - 118px);
 	transition: top 1s;
 }
 
